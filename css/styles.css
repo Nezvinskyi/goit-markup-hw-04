@@ -121,14 +121,47 @@ header address li:not(:last-child) {
 .header-nav-link.current {
   color: var(--accent-color);
 }
+
+.address-item::before {
+  content: '';
+  display: inline-flex;
+  align-items: baseline;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  /* background-image: url(../images/elements/envelope.jpg); */
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+}
+.address-item:nth-child(1) {
+  background-image: url(../images/elements/icon-envelope.png);
+  background-repeat: no-repeat;
+}
+.address-item:nth-child(2) {
+  background-image: url(../images/elements/icon-tel.png);
+  background-repeat: no-repeat;
+}
+
 /* =======END HEADER========= */
 
 /* =======HERO========== */
 
 .hero {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/main/bcg-hero.jpg);
   background-color: #2f303a;
   padding-top: 0;
   padding-bottom: 0;
+  height: 600px;
+  /* max-width: 1600px; */
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .hero-items {
   display: flex;
@@ -183,7 +216,34 @@ header address li:not(:last-child) {
   width: 270px;
 }
 
+.features-list-item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+}
+
+.icon-anthena::before {
+  background-image: url(../images/main/icon-antenna.png);
+}
+
+.icon-clock::before {
+  background-image: url(../images/main/icon-clock.png);
+}
+
+.icon-diagram::before {
+  background-image: url(../images/main/icon-diagram.png);
+}
+
+.icon-astronaut::before {
+  background-image: url(../images/main/icon-astronaut.png);
+}
+
 .features-title {
+  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
