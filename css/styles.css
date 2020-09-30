@@ -308,6 +308,28 @@ header address li:not(:last-child) {
 }
 /* ========== END TEAM ========== */
 
+/* ========== CLIENTS =========== */
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.client-item:hover,
+.client-item: focus {
+}
+
+/* ========== END CLIENTS =========== */
+
 /* ========== FOOTER ============ */
 footer {
   background-color: #2f303a;
