@@ -306,12 +306,30 @@ header address li:not(:last-child) {
   letter-spacing: 0.03em;
   color: var(--add-text-color);
 }
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  /*  */
+}
+
+.white-theme {
+  margin: 16px 32px 0px 32px;
+}
+
 /* ========== END TEAM ========== */
 
 /* ========== CLIENTS =========== */
 .clients-list {
   display: flex;
   justify-content: space-between;
+}
+
+.social-item {
+  width: 44px;
+  height: 44px;
+  border: solid 1px red;
+  border-radius: 50%;
 }
 
 .client-item {
@@ -324,9 +342,9 @@ header address li:not(:last-child) {
   border-radius: 4px;
 }
 
-.client-item:hover,
-.client-item: focus {
-}
+/* .client-item:hover,
+.client-item:focus {
+} */
 
 /* ========== END CLIENTS =========== */
 
@@ -335,6 +353,28 @@ footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-contacts {
+  margin-right: 70px;
+}
+
+.joinus {
+}
+
+.footer-title {
+  padding-top: 12px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 footer address {
