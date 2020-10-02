@@ -302,7 +302,7 @@ header address li:not(:last-child) {
   justify-content: space-between;
 }
 
-.client-item {
+.client-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -310,11 +310,14 @@ header address li:not(:last-child) {
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  fill: var(--add-text-color);
 }
 
-/* .client-item:hover,
-.client-item:focus {
-} */
+.client-link:hover,
+.client-link:focus {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
 
 /* ========== END CLIENTS =========== */
 
