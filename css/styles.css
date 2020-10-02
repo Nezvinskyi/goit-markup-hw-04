@@ -122,28 +122,6 @@ header address li:not(:last-child) {
   color: var(--accent-color);
 }
 
-.header-contact-item::before {
-  display: inline-flex;
-  content: '';
-  /* justify-content: center;
-  align-items: center; */
-  width: 16px;
-  height: 12px;
-  /* margin-right: 10px; */
-  background-image: url(../images/elements/icon-envelope.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-*/
-/* .address-item:nth-child(1) {
-  background-image: url(../images/elements/icon-envelope.png);
-  background-repeat: no-repeat;
-}
-.address-item:nth-child(2) {
-  background-image: url(../images/elements/icon-tel.png);
-  background-repeat: no-repeat;
-} */
-
 /* =======END HEADER========= */
 
 /* =======HERO========== */
@@ -153,12 +131,12 @@ header address li:not(:last-child) {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/main/bcg-hero.jpg);
+    url(../images/bcg-hero.jpg);
   background-color: #2f303a;
   padding-top: 0;
   padding-bottom: 0;
   height: 600px;
-  /* max-width: 1600px; */
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
@@ -229,19 +207,19 @@ header address li:not(:last-child) {
 }
 
 .icon-anthena::before {
-  background-image: url(../images/main/icon-antenna.png);
+  background-image: url(../images/icon-antenna.png);
 }
 
 .icon-clock::before {
-  background-image: url(../images/main/icon-clock.png);
+  background-image: url(../images/icon-clock.png);
 }
 
 .icon-diagram::before {
-  background-image: url(../images/main/icon-diagram.png);
+  background-image: url(../images/icon-diagram.png);
 }
 
 .icon-astronaut::before {
-  background-image: url(../images/main/icon-astronaut.png);
+  background-image: url(../images/icon-astronaut.png);
 }
 
 .features-title {
