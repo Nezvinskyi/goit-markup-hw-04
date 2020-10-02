@@ -215,19 +215,19 @@ header address li:not(:last-child) {
 }
 
 .icon-anthena::before {
-  background-image: url(../images/icon-antenna.png);
+  background-image: url(../images/antenna.svg);
 }
 
 .icon-clock::before {
-  background-image: url(../images/icon-clock.png);
+  background-image: url(../images/clock.svg);
 }
 
 .icon-diagram::before {
-  background-image: url(../images/icon-diagram.png);
+  background-image: url(../images/diagram.svg);
 }
 
 .icon-astronaut::before {
-  background-image: url(../images/icon-astronaut.png);
+  background-image: url(../images/astronaut.svg);
 }
 
 .features-title {
